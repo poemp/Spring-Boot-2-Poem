@@ -9,9 +9,19 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.2.RELEASE</version>
+    </parent>
+
     <modules>
-        <module>Spring MVC</module>
         <module>Commons Tools</module>
+        <module>SpringMVC</module>
+        <module>Spring Api</module>
+        <module>Commons Services</module>
+        <module>Commons API</module>
+        <module>Commons Entity</module>
     </modules>
 
     <properties>
