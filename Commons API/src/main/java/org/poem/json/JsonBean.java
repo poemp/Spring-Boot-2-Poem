@@ -4,12 +4,17 @@ import java.io.Serializable;
 
 public class JsonBean implements Serializable {
 
-    private final String message;
+    private String message;
 
-    private final Object result;
+    private Object result;
 
-    private final int status;
+    private  int status = 0;
 
+    public JsonBean(Object result) {
+        this.result = result;
+        this.message = "";
+        this.status = 0;
+    }
 
     public JsonBean(int status, String message) {
         this.message = message;
