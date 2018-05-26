@@ -17,6 +17,12 @@
             <artifactId>Commons API</artifactId>
             <version>${version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.poem</groupId>
+            <artifactId>Commons Tools</artifactId>
+            <version>${version}</version>
+        </dependency>
     </dependencies>
 
 </project>

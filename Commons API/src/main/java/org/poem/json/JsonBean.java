@@ -8,7 +8,13 @@ public class JsonBean implements Serializable {
 
     private Object result;
 
-    private  int status = 0;
+    private int status = 0;
+
+    public JsonBean() {
+        this.status = 0;
+        this.message = null;
+        this.result = null;
+    }
 
     public JsonBean(Object result) {
         this.result = result;
