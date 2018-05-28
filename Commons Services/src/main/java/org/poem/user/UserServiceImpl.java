@@ -19,4 +19,15 @@ public class UserServiceImpl implements UserService {
         userVo.setAge(120);
         return userVo;
     }
+
+    /**
+     *
+     * @param name
+     * @param id
+     * @return
+     */
+    @Override
+    public UserVo getUserAndName(String name, String id) {
+        return new UserVo(name,id);
+    }
 }

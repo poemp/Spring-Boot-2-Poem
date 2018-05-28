@@ -10,4 +10,12 @@ public interface UserService {
      * @return
      */
     public UserVo getById(String id);
+
+    /**
+     *
+     * @param name
+     * @param id
+     * @return
+     */
+    public UserVo getUserAndName(String name , String id);
 }

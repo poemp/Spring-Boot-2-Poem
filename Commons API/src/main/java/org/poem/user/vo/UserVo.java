@@ -32,4 +32,18 @@ public class UserVo implements Serializable {
     public void setAge(Integer age) {
         this.age = age;
     }
+
+    public UserVo() {
+    }
+
+    public UserVo(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public UserVo(String id, String name, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+    }
 }
