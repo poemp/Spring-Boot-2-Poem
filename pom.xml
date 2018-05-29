@@ -22,6 +22,7 @@
         <module>Commons API</module>
         <module>Commons Entity</module>
         <module>Spring DataBases</module>
+        <module>Spring Data JPA</module>
     </modules>
 
     <properties>
