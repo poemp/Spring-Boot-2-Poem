@@ -22,6 +22,16 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.poem</groupId>
+            <artifactId>Commons Tools</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.poem</groupId>
+            <artifactId>Commons API</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
