@@ -23,6 +23,7 @@
         <module>Commons Entity</module>
         <module>Spring DataBases</module>
         <module>Spring Data JPA</module>
+        <module>Spring JUnit Test</module>
     </modules>
 
     <properties>
