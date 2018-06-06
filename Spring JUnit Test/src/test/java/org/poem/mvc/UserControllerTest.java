@@ -38,7 +38,9 @@ public class UserControllerTest {
         String expectedCredit = "100";
         BDDMockito.given(this.userService.getById(userId)).willReturn(new UserVo(expectedCredit,"BDDMockito"));
         mockMvc
-                .perform(MockMvcRequestBuilders.get("/api/v1.0/user/{id}",userId))
-        .andExpect(MockMvcResultMatchers.content().string(expectedCredit));
+                .perform(MockMvcRequestBuilders.get("/api/v1.0/user/{id}",userId)
+                        .contentType(MediaType.APPLICATION_JSON_UTF8_VALUE)
+                        .accept(MediaType.APPLICATION_JSON))
+                .andExpect(MockMvcResultMatchers.content().string(reseult));
     }
 }
