@@ -16,5 +16,27 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.poem</groupId>
+            <artifactId>Commons Tools</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.poem</groupId>
+            <artifactId>Commons API</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.poem</groupId>
+            <artifactId>Commons Services</artifactId>
+            <version>${version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.poem</groupId>
+            <artifactId>Commons Entity</artifactId>
+            <version>${version}</version>
+        </dependency>
+
     </dependencies>
 </project>
