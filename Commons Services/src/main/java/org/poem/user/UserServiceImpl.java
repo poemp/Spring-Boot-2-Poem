@@ -30,4 +30,13 @@ public class UserServiceImpl implements UserService {
     public UserVo getUserAndName(String name, String id) {
         return new UserVo(name,id);
     }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public int count() {
+        return 0;
+    }
 }

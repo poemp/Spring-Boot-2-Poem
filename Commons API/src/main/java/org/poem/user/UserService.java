@@ -18,4 +18,10 @@ public interface UserService {
      * @return
      */
     public UserVo getUserAndName(String name , String id);
+
+    /**
+     *
+     * @return
+     */
+    public int count();
 }

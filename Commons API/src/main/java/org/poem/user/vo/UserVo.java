@@ -1,5 +1,7 @@
 package org.poem.user.vo;
 
+import com.alibaba.fastjson.JSONObject;
+
 import java.io.Serializable;
 
 public class UserVo implements Serializable {
@@ -45,5 +47,10 @@ public class UserVo implements Serializable {
         this.id = id;
         this.name = name;
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return JSONObject.toJSONString(this);
     }
 }

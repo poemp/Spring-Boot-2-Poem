@@ -24,6 +24,7 @@
         <module>Spring DataBases</module>
         <module>Spring Data JPA</module>
         <module>Spring JUnit Test</module>
+        <module>Spring Redis</module>
     </modules>
 
     <properties>
