@@ -25,6 +25,7 @@
         <module>Spring Data JPA</module>
         <module>Spring JUnit Test</module>
         <module>Spring Redis</module>
+        <module>Spring Zookeeper</module>
     </modules>
 
     <properties>
@@ -44,6 +45,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <dependency>
             <groupId>commons-lang</groupId>

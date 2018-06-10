@@ -1,7 +1,7 @@
-package org.poem;
+package org.poem.redis;
 
+import io.lettuce.core.RedisClient;
 import org.poem.json.JsonBean;
-import org.poem.redis.RedisService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
