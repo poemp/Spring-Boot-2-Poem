@@ -26,6 +26,7 @@
         <module>Spring JUnit Test</module>
         <module>Spring Redis</module>
         <module>Spring Zookeeper</module>
+        <module>Spring Search</module>
     </modules>
 
     <properties>
