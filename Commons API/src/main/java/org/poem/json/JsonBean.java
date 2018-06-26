@@ -45,4 +45,8 @@ public class JsonBean implements Serializable {
     public int getStatus() {
         return status;
     }
+
+     private static void test(){
+
+     }
 }
